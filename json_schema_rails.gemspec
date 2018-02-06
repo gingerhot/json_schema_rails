@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.split($\)
   s.test_files  = s.files.grep(%r{^(test|spec|features)/})
 
-  s.add_runtime_dependency "activesupport", [">= 3.0", "< 4.2"]
-  s.add_runtime_dependency "actionpack",    [">= 3.0", "< 4.2"]
-  s.add_runtime_dependency "railties",      [">= 3.0", "< 4.2"]
+  #s.add_runtime_dependency "activesupport", [">= 3.0", "< 4.2"]
+  #s.add_runtime_dependency "actionpack",    [">= 3.0", "< 4.2"]
+  #s.add_runtime_dependency "railties",      [">= 3.0", "< 4.2"]
   s.add_runtime_dependency "json_schema",   "~> 0.1.4"
 
   s.add_development_dependency "rails",     [">= 3.0", "< 4.2"]
